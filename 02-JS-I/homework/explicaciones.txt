@@ -1,0 +1,27 @@
+**Explicación de conceptos**
+
+Variables: 
+    Son los elementos en los que se almacenan los valores con los que vamos hacer diferentes tipos de operaciones haciendo uso del interprete js, el valor en la variable puede cambiar dentro del flujo del programa; hay 2 formas de definir variables en js, con la siguiente sintaxis y haciendo uso de las palabras reservadas del lenguaje 'var' y 'let':
+
+    var variable1; // var es la forma de definir variables en la versión ES5 de js
+
+    len vriable2; // len es la forma de definir variables en la versión ES6 de js, aún no es la más utilizada
+
+    La palabra reservada del lenguaje 'const' es utilizada para "nombrar" un valor fijo, es decir que el valor no nombrado no cambia a través de la ejecución del flujo de ejecución de un programa.
+
+Strings:
+
+    Los strings son cadenas de texto, que en sí mismas constituyen un tipo de dato para js, es decir que las propiedades y posibilidades de operar para los valores almacenados esta dado por este tipo de dato.
+
+Funciones (argumentos, return):
+
+    Las funciones en js son un tipo especial de objeto, que tiene la caractristica o propiedad de poder ser invocados; las funciones pueden realizar una o muchas operaciones que no retorne ningun valor o por el contrario retornar un valor como resultado de las operaciones que ejecute, para indicar el retorno de la función se debe utilizar la palabra reservada de js 'return'; las funciones pueden recibir uno o varios valores como parametro para ejecutar las operaciones, a los valores recibidos como parametros también se les conoce como argumentos de la función. 
+    Las funciones en js definen un ambito o 'scope' para las variables o constantes que son definidas dentro de ellas, es decir no pueden ser utilizadas por fuera de la función.  
+
+Declaraciones if:
+
+    El flujo de ejecución de un programa js puede ir por un 'lado' u otro, de acuerdo a alguna condición o ejecutar o no una parte del código; las declaraciónes con la palabra reservada 'if' que siempre evaluan un valor booleano, son las que permiten controlar la ejecución de fracciones de código de acuerdo al valor de verdad que contenga la variable booleana.
+
+Valores booleanos (true, false)
+
+    Los valores booleanos corresponden al valor de verdad (true, false) que resulta de una operación de lógica binaria, mediada por los operadores de comparación '<=', '==', '>=' o '!=' y los operadores lógicos '&&'(and), '||'(or).
