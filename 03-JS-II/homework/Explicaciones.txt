@@ -1,0 +1,11 @@
+
+for:
+
+    Estructura de control que implementa un ciclo de ejecución, es decir permite ejecutar la misma instrucciónn o bloque de instrucciones, pero para valores que cambian dependiendo de un indice, en la estructura se puede definir el valor en el que aumenta el indice en cada iteración o ciclo y el valor maximo al que éste puede llegar, cuando el indice llega al valor máxomo es cuando se rompe el ciclo de ejecución.
+
+&&, ||, !
+
+    Operadores lógicos que pemiten determinar el valor de verdad (true, false) para una expresión lógica compuesta por varias proposiciones.
+    && corresponde a la compuerta lógica AND
+    || corresponde a la compuerta lógica OR 
+    ! corresponde a la negación, anteponer este simbolo a una proposición lógica cambia su valor de verdad por el contrario.  
