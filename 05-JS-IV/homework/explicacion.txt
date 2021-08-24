@@ -1,0 +1,24 @@
+Objetos:
+
+    En js un objeto es una estructura de datos que permite asignar una "clave" o "nombre" para cada  entrada o elemento dentro de la estructura; esto permite hacer referencia a un valor dentro de la estructura objeto, a través de la "clave"; las claves siempre van a ser strings y su valor correspondiente puede ser cualquier tipo de dato, numérico, cadena de texto (string), booleano, un arreglo o una función.
+    Es posible agregar y quitar elementos a un objeto.
+    En js todo tiene una definición subyacente en forma de objeto.
+
+Propiedades:
+
+    En js podemos entender las propiedades como las entradas de los objetos que no son funciones.
+
+Métodos: 
+
+    En js podemos entender los métodos como las entradas de los objetos que son funciones.
+
+Bucle for…in:
+
+    Ciclo de ejecución que itera a través de los elementos o entradas de un objeto, permite definir un indice que referencia cada entrada del objeto.
+    
+
+Notación de puntos vs notación de corchetes:
+
+    Ambas formas de notar o hacer referencia a los objetos y sus elementos son muy importantes y utilizadas, dependiendo del caso sera mejor utilizar una u otra.
+    La notación de punto, permite hacer referencia de manera rápida a cualquier entrada, ya sea propiedad o método.
+    La notación de corchetes abstrae el objeto como un arreglo en el que el indice no tiene un valor númerico sino una cadeana de caracteres; está notación es muy importante en implementaciones genericas, cuando recibimos por parametro el nombre de la propiedad o método.
