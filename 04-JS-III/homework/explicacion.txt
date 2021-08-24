@@ -1,0 +1,26 @@
+Arrays:
+
+    Los arrays son un tipo de objeto que en js nos permite alamacenar un conjunto de datos que compartan o no las mismas caracteristicas, haciendo posible manejar el conjunto como una sola variable sobre la que se puede ejecutar operaciones; es de particular importancia la posibilidad de iterar por las entradas del arreglo.
+
+    El array se instancia con la siguiente sintaxis:
+
+        nombre_Array = new Array();
+
+    los array tienen un conjuto amplio de metodos que permiten por ejemplo adicionar una entrada al inicio o al final del arreglo, eliminar una entrada al inicio o al final del arreglo, saber el tamaño del arreglo, averiguar si una entrada corresponde con un valor particular, entre otros.
+
+    Para recorrer un arreglo se puede utilizar la forma simple del ciclo for, que tiene la siguiente forma:
+
+        for(let 'variable' in 'nombre_Array')
+
+    donde 'variable' identifica el indice de la entrada del array dentro del ciclo, así:
+
+        nombre_Array[variable]
+
+    ejemplo de ciclo:
+    ciclo que recorre el arreglo y envia cada entrada a log a través de la función console.log:
+
+        for(let 'variable' in 'nombre_Array'){
+            console.log(nombre_Array[variable]);
+        }
+
+     
