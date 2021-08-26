@@ -1,0 +1,3 @@
+Funciones Callback:
+
+    Son funciones que pueden recibir como argumento la definición de otra función, para operar con ésta y eventualmente también devolver la invocación con valores como parametro obtenidos a través de operaciones o que se hayan también recibido a través de otro argumento de la función.  
