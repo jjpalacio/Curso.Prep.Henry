@@ -1,0 +1,8 @@
+prototype:
+
+    Todos los objetos de tipo 'function' en js tienen el atributo 'prototype' que a su vez es un arreglo que tiene el elemento 'constructor' que corresponde a la definición de la misma función y otro elemento correspondiente al prototipo del tipo de objeto del cual proviene, es decir que a través del atributo 'prototype' se establece la cadena de prototipos hasta el protoptipo del objeto base 'Object'; además es posible incluir nuevos metodos o atributos en el elemento 'prototype'. 
+
+Constructors (de Clases):
+
+    Los constructors son la manera de definir una 'plantilla' para un tipo especifico de objeto, donde se definen los atributos que comparten todos los objetos de esa 'clase'.
+    Cuando una función generadora de objetos es instanciada a través de la palabra clave 'new' se crea un nuevo objeto con los mismos atributos pero con el atributo __proto__ igual al prototype de la función generadora ('o constructor o class') de esta forma el nuevo objeto compartira el atributo __proto__ con todos los demás objetos instaciados de la misma 'class'.
